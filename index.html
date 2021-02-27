@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Profile</title>
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		<script type="text/javascript">
+			function myFunction() {
+				var dots = document.getElementById("dots");
+				var moreText = document.getElementById("more");
+				var btnText = document.getElementById("myBtn");
+				document.getElementById("myBtn").style.margin = "180px 20px";
+				if (dots.style.display === "none") {
+					dots.style.display = "inline";
+					moreText.style.display = "none";
+				} else {
+					dots.style.display = "none";
+					moreText.style.display = "inline";
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div id="bg">
+				<img src="images/pexels-cátia-matos-1072179.jpg" width="auto" height="auto" />
+			<div id="plate" class="card">
+				<img id="sampul" src="images/sampul.png" width="792" height="200">
+				<div id="bio">
+					<div id="nama">
+						<p>Sasmita Eko</p>
+						<p1>Mahasiswa di Universitas Brawijaya<br>Malang, Jawa Timur, Indonesia</p1>
+					</div>
+					<div id=desc>
+						<p2><b>Tentang</b></p2>
+						<p3>Saya 21 tahun dan saya cukup berpengalaman di bidang Multimedia. Hobi saya memang menggeluti dunia Multimedia, namun pendidikan yang sedang saya tempuh saat ini adalah Teknik Komputer, dimana saya sudah menjalani 5 semester dan sedang menjalani Praktek Kerja Lapangan. Saya juga berkenan mengisi lowongan yang sekiranya membutuhkan kemampuan seperti yang saya miliki saat ini atau yang akan saya pelajari sambil saya kerjakan nanti. <span id="dots">...</span><span id="more"><br><br>	I am 21 years old and I am capable enough in Multimedia. My hobby is dealing with such as Multimedia things, but my education now is about Computer Engineering, I have passed 5th semester and I am working on Job Training /Internship. I am also pleased to fill vacancies if it need the skills that I currently have or which I will learn while working on later.</span></p3>
+						<button onclick="myFunction()" id="myBtn">Baca Selengkapnya</button>
+					</div>
+					<div id="task"><b><i>Tugas Pemrograman Web</i></b></div>
+				</div>
+				<img id="pp" src="images/pp.jpg" width="200" height="200">
+			</div>
+			<div id="fl" class="card">
+				<div id="fl1" class="marg">
+					<p5>Anna</p5>
+				</div>
+				<div id="fl2" class="marg">
+					<p5>Aba</p5>
+				</div>
+				<div id="fl3" class="marg">
+					<p5>Lina</p5>
+				</div>
+				<div id="fl4" class="marg">
+					<p5>Mia</p5>
+				</div>
+				<div id="fl5">
+					<a href="https://www.linkedin.com/in/sasmita-eko-4658741b7/" target="_blank">Click here!</a>
+					<p5>Silahkan cek sumber halaman ini.</p5>
+					
+				</div>
+			</div>
+			<p4><b>Friendlist</b></p4>
+			<p6>&copy; Sasmita Eko&trade;</p6>
+		</div>
+	</body>
+	<footer></footer>
+</html>
