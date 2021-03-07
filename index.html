@@ -21,6 +21,7 @@
 	</head>
 	<body background="images/pexels-cátia-matos-1072179.jpg" width="auto" height="auto">
 		<div id="bg">
+				<!-- <img src="images/pexels-cátia-matos-1072179.jpg" width="auto" height="auto" /> -->
 			<div id="plate" class="card">
 				<img id="sampul" src="images/sampul.png" width="792" height="200">
 				<div id="bio">
@@ -38,7 +39,7 @@
 				<img id="pp" src="images/pp.jpg" width="200" height="200">
 			</div>
 			<div id="fl" class="card">
-				<form action="index.php" method="get">
+				<form action="" method="post">
 					Name: <input type="text" name="name"><br>
 					E-mail: <input type="text" name="email"><br>
 					<input type="submit">
@@ -53,4 +54,13 @@
 		</div>
 		<p6>&copy; Sasmita Eko&trade;</p6>
 	</body>
+	<footer>
+		<?php
+			echo "Hello World!<br><br>";
+			echo "<br>Welcome ";
+			echo $_POST["name"];
+			echo "<br>Your email address is: ";
+			echo $_POST["email"];
+		?>
+	</footer>
 </html>
